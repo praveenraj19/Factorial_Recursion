@@ -8,11 +8,11 @@ public class Fact_recursion {
                
                 System.out.println("Enter the number: ");
                
-                //get input from the user
+              
                 BufferedReader num = new BufferedReader(new InputStreamReader(System.in));
                 int a = Integer.parseInt(num.readLine());
                
-                //call the recursive function to generate factorial
+
                 int result= fact(a);
                
                
