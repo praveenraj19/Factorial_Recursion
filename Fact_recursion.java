@@ -24,6 +24,6 @@ public class Fact_recursion {
                 if(b <= 1)
                         return 1;
                 else
-                        return b * fact(b-1);
+                        return b + fact(b-1);
         }
 }
